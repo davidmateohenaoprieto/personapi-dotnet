@@ -1,0 +1,39 @@
+CREATE DATABASE persona_db;
+
+-- Usar la base de datos "personas_db"
+USE personas_db;
+
+-- Crear la tabla "persona"
+CREATE TABLE persona (
+    cc INT PRIMARY KEY,
+    nombre VARCHAR(45),
+    apellido VARCHAR(45),
+    genero CHAR(1),
+    edad INT
+);
+
+-- Crear la tabla "telefono"
+CREATE TABLE telefono (
+    num VARCHAR(15) PRIMARY KEY,
+    oper VARCHAR(45),
+    duenio INT,
+    FOREIGN KEY (duenio) REFERENCES persona(cc)
+);
+
+-- Crear la tabla "estudios"
+CREATE TABLE estudios (
+    id INT PRIMARY KEY,
+    id_prof INT,
+    cc_per INT,
+    fecha DATE,
+    univer VARCHAR(50),
+    FOREIGN KEY (id_prof) REFERENCES profesion(id),
+    FOREIGN KEY (cc_per) REFERENCES persona(cc)
+);
+
+-- Crear la tabla "profesion"
+CREATE TABLE profesion (
+    id INT PRIMARY KEY,
+    nom VARCHAR(90),
+    des TEXT
+);

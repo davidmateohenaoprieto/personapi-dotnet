@@ -1,0 +1,80 @@
+-- Ejemplo 1
+INSERT INTO persona (cc, nombre, apellido, genero, edad)
+VALUES (101, 'Juan', 'Pérez', 'M', 30);
+
+-- Ejemplo 2
+INSERT INTO persona (cc, nombre, apellido, genero, edad)
+VALUES (102, 'María', 'Gómez', 'F', 25);
+
+-- Ejemplo 3
+INSERT INTO persona (cc, nombre, apellido, genero, edad)
+VALUES (103, 'Luis', 'Martínez', 'M', 35);
+
+-- Ejemplo 4
+INSERT INTO persona (cc, nombre, apellido, genero, edad)
+VALUES (104, 'Ana', 'Rodríguez', 'F', 28);
+
+-- Ejemplo 5
+INSERT INTO persona (cc, nombre, apellido, genero, edad)
+VALUES (105, 'Carlos', 'López', 'M', 32);
+
+-- Ejemplo 1
+INSERT INTO telefono (num, oper, duenio)
+VALUES ('123456789', 'Claro', 101);
+
+-- Ejemplo 2
+INSERT INTO telefono (num, oper, duenio)
+VALUES ('987654321', 'Movistar', 102);
+
+-- Ejemplo 3
+INSERT INTO telefono (num, oper, duenio)
+VALUES ('555555555', 'Tigo', 103);
+
+-- Ejemplo 4
+INSERT INTO telefono (num, oper, duenio)
+VALUES ('999999999', 'Claro', 104);
+
+-- Ejemplo 5
+INSERT INTO telefono (num, oper, duenio)
+VALUES ('888888888', 'Movistar', 105);
+
+-- Ejemplo 1
+INSERT INTO estudios (id, id_prof, cc_per, fecha, univer)
+VALUES (1, 1, 101, '2023-01-15', 'Universidad A');
+
+-- Ejemplo 2
+INSERT INTO estudios (id, id_prof, cc_per, fecha, univer)
+VALUES (2, 2, 102, '2022-12-20', 'Universidad B');
+
+-- Ejemplo 3
+INSERT INTO estudios (id, id_prof, cc_per, fecha, univer)
+VALUES (3, 1, 103, '2022-11-10', 'Universidad A');
+
+-- Ejemplo 4
+INSERT INTO estudios (id, id_prof, cc_per, fecha, univer)
+VALUES (4, 2, 104, '2022-10-05', 'Universidad B');
+
+-- Ejemplo 5
+INSERT INTO estudios (id, id_prof, cc_per, fecha, univer)
+VALUES (5, 3, 105, '2022-09-01', 'Universidad C');
+
+-- Ejemplo 1
+INSERT INTO profesion (id, nom, des)
+VALUES (1, 'Ingeniero', 'Especialidad en software.');
+
+-- Ejemplo 2
+INSERT INTO profesion (id, nom, des)
+VALUES (2, 'Médico', 'Especialidad en pediatría.');
+
+-- Ejemplo 3
+INSERT INTO profesion (id, nom, des)
+VALUES (3, 'Abogado', 'Especialidad en derecho laboral.');
+
+-- Ejemplo 4
+INSERT INTO profesion (id, nom, des)
+VALUES (4, 'Contador', 'Especialidad en impuestos.');
+
+-- Ejemplo 5
+INSERT INTO profesion (id, nom, des)
+VALUES (5, 'Ingeniero', 'Especialidad en electrónica.');
+
