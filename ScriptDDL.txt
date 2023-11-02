@@ -1,4 +1,4 @@
-CREATE DATABASE persona_db;
+CREATE DATABASE personas_db;
 
 -- Usar la base de datos "personas_db"
 USE personas_db;
